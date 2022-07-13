@@ -66,6 +66,7 @@ export default function Home(props) {
 }
 
 
+// eslint-disable-next-line no-unused-vars
 export async function getServerSideProps() {
  await db.connect();
  const products = await Product.find({}).lean();
