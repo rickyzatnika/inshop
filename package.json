@@ -1,5 +1,6 @@
 {
   "name": "next-commerce",
+  "homepage": "https://inkara.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
