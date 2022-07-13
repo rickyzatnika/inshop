@@ -8,9 +8,9 @@ const router = createRouter();
 
 router.get(async(req, res) => {
     await db.connect();
-    const products = await Product.find({});
+    const product = await Product.find({});
     await db.disconnect();
-    res.send(products);
+    res.send(product);
 });
 
 export default router.handler();

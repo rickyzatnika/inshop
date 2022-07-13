@@ -11,6 +11,7 @@ import { Store } from "../../utils/store";
 import { useRouter } from "next/router";
 
 
+
 export default function ProductScreen(props) {
   const router = useRouter();
   const { state, dispatch } = useContext(Store);
